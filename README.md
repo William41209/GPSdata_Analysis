@@ -32,7 +32,7 @@
 
 此為最終速率的盒狀圖，並無飄移值的產生。
 
-![Boxplot](https://i.meee.com.tw/vVpAMni.png "boxplot")
+![Boxplot](https://i.meee.com.tw/89XOIlO.png "boxplot")
 
 ## 4. 模型的架設(model construction)
 
@@ -50,7 +50,7 @@
 
 **綠線**：`glm`直接套用路徑
 
-![GLM1](https://i.meee.com.tw/wKnewt3.png "glm1")
+![GLM1](https://i.meee.com.tw/mrLnGBS.png "glm1")
 
 #### 4.1.2 ) 局部 GLM 
 
@@ -58,15 +58,15 @@
 
 **以每 20 個點分段**：
 
-![GLMp1](https://i.meee.com.tw/Rk5VX1u.png "glmp1")
+![GLMp1](https://i.meee.com.tw/9sakJ8i.png "glmp1")
 
 **以每 10 個點分段**：
 
-![GLMp2](https://i.meee.com.tw/W57VeJh.png "glmp2")
+![GLMp2](https://i.meee.com.tw/uX8SU3Z.png "glmp2")
 
 **以每 5 個點分段**：
 
-![GLMp3](https://i.meee.com.tw/fNIdBih.png "glmp3")
+![GLMp3](https://i.meee.com.tw/LHYydev.png "glmp3")
 
 可以發現到以 5 個點分段的擬和效果是最好的。
 
@@ -80,7 +80,7 @@
 
 **紅線**：`LOESS`直接套用路徑
 
-![LOESS](https://i.meee.com.tw/pfwyjdK.png "loess")
+![LOESS](https://i.meee.com.tw/v3BUMim.png "loess")
 
 由此我們可以發現使用 `LOESS` 能比分段式 `glm` 來的更加平滑，
 
