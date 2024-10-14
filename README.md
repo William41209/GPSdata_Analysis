@@ -34,9 +34,9 @@
 
 ![Boxplot](https://i.meee.com.tw/89XOIlO.png "boxplot")
 
-## 4. 模型的架設(model construction)
+## 4. 資料平滑化(data smoothing)
 
-這邊使用了兩個不同的模型去建構，也發現到合適與不合適的地方。
+這邊使用了兩個不同的模型去平滑化，也發現到合適與不合適的地方。
 
 ### 4.1. ) 廣義線性模型(GLM)
 
@@ -88,7 +88,7 @@
 
 故兩方法各有優缺點，都是屬於可以執行的模型。
 
-## 5. 地圖上兩方法的比較(Two model using in map)
+## 5. 地圖上兩方法的比較(Two methods using in map)
 
 如下圖，我們將兩方法針對特定路段實測。
 
